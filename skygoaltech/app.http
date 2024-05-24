@@ -1,0 +1,21 @@
+### Signup
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+  "username": "sukanya",
+  "password": "ashok123"
+}
+
+### Login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "sukanya",
+  "password": "ashok123"
+}
+
+### Get User Details
+GET http://localhost:3000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdWthbnlhIiwiaWF0IjoxNzE2NTQzMTQxLCJleHAiOjE3MTY1NDY3NDF9.BaKB9vpybPIZQwglWSYhJ0TehBgRBtbbBux-LWFkaek
